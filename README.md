@@ -16,5 +16,5 @@ pycharm下可以使用虚拟环境，我这里不推荐使用，我因为安装�
 **环境配置路径**：File->Default setting->Project interpreter->add->Existing environment   
 在里面填写下列路径：/Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6    
 用**系统自带python**的童鞋填：/usr/bin/python2.7   
-做好这些以后就要安装一些库了，这里直接使用pycharm来安装，点击+号按钮后输入appium-python-client 选择正确的库安装即可，命令行也可以：pip3 install Appium-Python-Client
-![image](https://note.youdao.com/favicon.ico)
+做好这些以后就要安装一些库了，这里直接使用pycharm来安装，点击+号按钮后输入appium-python-client 选择正确的库安装即可，命令行也可以：pip3 install Appium-Python-Client   
+![image](https://github.com/GongK/APPIUM/blob/master/%E6%B7%BB%E5%8A%A0%E5%BA%93.png)
