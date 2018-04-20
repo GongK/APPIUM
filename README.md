@@ -17,4 +17,32 @@ pycharm下可以使用虚拟环境，我这里不推荐使用，我因为安装�
 在里面填写下列路径：/Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6    
 用**系统自带python**的童鞋填：/usr/bin/python2.7   
 做好这些以后就要安装一些库了，这里直接使用pycharm来安装，点击+号按钮后输入appium-python-client 选择正确的库安装即可，命令行也可以：pip3 install Appium-Python-Client   
-![image](https://github.com/GongK/APPIUM/blob/master/%E6%B7%BB%E5%8A%A0%E5%BA%93.png)
+![image](https://github.com/GongK/APPIUM/blob/master/%E6%B7%BB%E5%8A%A0%E5%BA%93.png)   
+
+---
+
+## 命令行安装的东西
+- brew安装   
+
+<html>
+终端输入：usr/bin/ruby -e "$(curl -fsSL  https://raw.githubusercontent.com/Homebrew/install/master/install)"  
+</html>
+
+ 
+验证：**brew -v**
+- Carthage   
+终端输入：**brew installCarthage**
+- libimobiledevice   
+终端输入：**brew install libimobiledevice** --HEAD   
+
+- nodejs
+下载安装包安装，[下载地址](https://nodejs.org/en/download/)
+- ios-deploy    
+终端输入：**npm install -g ios-deploy**   
+- xcpretty   
+终端输入：**gem install xcpretty**   
+- 安装appium-doctor来验证appium环境   
+ 终端输入：npm install appium-doctor 安装后     
+输入appium-doctor --ios 来验证ios环境是否完成，出现以下信息表示完成   
+![image](https://github.com/GongK/APPIUM/blob/master/appium-doctor.png)
+
