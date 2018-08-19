@@ -62,6 +62,8 @@ from appium import webdriver
 
 - **Android SDK**
 
+![image](https://github.com/GongK/APPIUM/blob/master/sdk.png) 
+
 网盘下载 [android sdk manager](http://tools.android-studio.org/index.php/sdk)安装后启动SDK manager.exe可以看到主界面
 
 tools目录下必须勾选下载的有：Android SDK Tools、Android SDK Platform-tools、Android SDK Build-tools(选择一个即可，rc是预览版本)。
