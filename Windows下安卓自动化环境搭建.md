@@ -4,12 +4,14 @@
 1. 下载地址 [官网下载](http://nodejs.cn/download/)
 2. 安装好后，在window下进入cmd输入 **node -v** 以及**npm -v**可查看到对应版本信息表示安装完成
 
+![image](https://github.com/GongK/APPIUM/blob/master/nodejs1.png)  
+
 - #### Python
 [官网地址](https://www.python.org/)，版本号不管是2.x还是3.x的都可以，但是请注意是32位还是64的，默认安装路径为C盘的根目录。
 
 Python环境变量配置：将C:\Python36\Scripts\和C:\Python36添加到path中，在cmd中输入python --version，出现版本等信息表示安装好了
 
-
+  
 - #### Appium
 **安装方式下列二选一吧**
 1. 因为某些原因，国内墙的存在我们安装一些东西的时候很慢，有梯子的同学可以采用以下安装方式：
@@ -18,6 +20,7 @@ Python环境变量配置：将C:\Python36\Scripts\和C:\Python36添加到path中
 ```
 npm install -g appium（-g表示全局安装）
 ```
+![image](https://github.com/GongK/APPIUM/blob/master/appium.png) 
 
    
 2.实在没有梯子也可以用淘宝的镜像来安装，首先是镜像设置
@@ -25,6 +28,10 @@ npm install -g appium（-g表示全局安装）
 ```
 npm install -g cnpm --registry=https://registry.npm.taobao.org
 ```
+
+![image](https://github.com/GongK/APPIUM/blob/master/taobao.png) 
+
+
 安装好后输入来安装appium
 ```
 cnpm install -g appium
@@ -45,6 +52,9 @@ from appium import webdriver
 2. Pycharm安装
 
 一些童鞋喜欢用pycharm来下写代码，记得在Available Packages中添加这个包
+
+![image](https://github.com/GongK/APPIUM/blob/master/%E5%AE%A2%E6%88%B7%E7%AB%AF.png) 
+
 
 - **JDK安装**
 
